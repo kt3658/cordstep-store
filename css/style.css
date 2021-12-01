@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* /*共通部分 */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Helvetica Neue","Arial","Hiragino Sans","Hiragino Kaku Gothic ProN","Meiryo、sans-serif";
+  
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.site-title {
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+}
+
+.logo-title {
+  position: absolute;
+  top: 34%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 6.7rem;
+}
+
+.part-title {
+  font-size: 4.0rem;
+  margin-bottom: 70px;
+  display: inline-block;
+  border-bottom: solid 6px red;
+}
+
+.fixed-img {
+  background-attachment: fixed;
+  min-height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  padding: 90px 16px 150px 16px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+/* header */
+
+.header {
+  background-image: url(../img/main1-store.jpeg);
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 36px;
+}
+
+.header li {
+  margin-right: 26px;
+  padding-top: 22px;
+  font-size: 1.4rem;
+}
+
+.header li a {
+  color: white;
+  font-weight: bold;
+  transition: all  0.3s ease;
+  filter: drop-shadow(1px 1px 2px #121212);
+}
+
+.header li a:hover {
+  color: red;
+}
+
+/* menu */
+#menu {
+  margin: 20px 0;
+}
+
+.menu-img {
+  background-image: url(../img/menu1-store.jpeg);
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-box {
+  width: 50%;
+  padding: 0 4.5%;
+  border-right: 1px solid black;
+  margin-top: 20px;
+}
+
+.menu-box:nth-of-type(2) {
+  border-right: none;
+}
+
+.menu-box dl {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+
+.menu-box dt {
+  width: 85%;
+  border-bottom: 1px dotted black;
+  margin-bottom: 27px;
+  text-align: left;
+}
+
+.menu-box dd {
+  width: 15%;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+.menu-style {
+  margin-bottom: 55px;
+}
+
+/* about */
+
+.about-img {
+  background-image: url(../img/about1-store.jpg);
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+
+
+.about-box ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+
+.about-box li {
+  width: 50%;
+  padding: 2%;
+  text-align: left;
+  line-height: 2;
+}
+
+.about-btn {
+  color: black;
+  padding: 10px;
+  display: inline-block;
+  font-size: 1.4rem;
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+/* location */
+
